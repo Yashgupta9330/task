@@ -64,14 +64,14 @@ function Datasimplified() {
                             width={278}
                             height={280}
                             alt=''
-                            className=''
+                            className=' lg:w-[240px] lg:h-[240px] xl:w-[278px] xl:h-[280px] '
                         />
                         <Image
                             src={img2}
                             width={296}
                             height={283}
                             alt=''
-                            className=''
+                            className=' lg:w-[238px] lg:h-[230px] xl:w-[296px] xl:h-[283px] '
                         />
                     </div>
                     <div className='w-[80%] flex items-center justify-center '>
