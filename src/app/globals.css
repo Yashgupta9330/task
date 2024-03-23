@@ -1,3 +1,67 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap:32px;
+    height: 620px; 
+    width: 558px;
+    padding: 0;
+    margin: 0;
+}
+
+.heading{
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 24px;
+        color: #0D0E10;  
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.button1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 116px;
+    height: 30px;
+    gap:6px;
+    border-radius: 4px 4px 4px 4px;
+    opacity: 1;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #FFFFFF; 
+}
+.button{
+    margin-top: 18px;
+}
+.text-container{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color: #2A2B2C;
+    height: 103px;
+    width: 100%;
+
+}
+
+.arrow{
+    font-size: 10;
+}
+
+.content-container{
+   display: flex;
+   flex-direction: column;
+   gap: 30px;
+}
+
+.two{
+    background-color: #7F39EB;
+}
+
+.one{
+    background: #285B52; 
+}
