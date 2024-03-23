@@ -17,7 +17,7 @@ const Card2= () => {
          <div>
   
   <div className='flex-end'>
-    <div className="flex justify-center items-center w-32 h-8 gap-1.5 pointer rounded text-[#FFFFFF] bg-[#7F39EB]">
+    <div className="flex justify-center items-center w-32 h-8 gap-1.5 pointer rounded text-[#FFFFFF] bg-[#7F39EB] pointer">
       <div className='inner'>Learn More</div>
       <FaArrowRight className='arrow'/>
     </div>
