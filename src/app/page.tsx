@@ -16,10 +16,14 @@ export default function Home() {
       <div className="w-full h-full mt-[75px]">
         <Datasimplified />
       </div>
-      <div className="w-fit h-fit absolute top-[2311px] left-[137px] ">
+
+
+        {/* <Last /> */}
+
+      <div className="w-full h-fit flex justify-center items-center mt-[20px] ">
         <Last />
       </div>
-      <div className=" w-full absolute top-[2914px] ">
+      <div className=" w-full  ">
       <Footer/>
       </div>
     </div>
