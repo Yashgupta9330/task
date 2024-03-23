@@ -7,7 +7,7 @@ import Middle from "@/component/middle";
 export default function Home() {
   return (
 
-    <div className="top">
+    <div className="w-full">
       <Header/>
       <Top/>
       <Middle/>

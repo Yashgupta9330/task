@@ -1,21 +1,22 @@
 import React from 'react'
 import Image from 'next/image'
-import image2 from '../assets/image2.png'
+import image1 from '../assets/image1.png'
 import '../app/globals.css'
 import { FaArrowRight } from "react-icons/fa";
-const Card = () => {
+const Card2 = () => {
   return (
     <div className='container'>
     <div className="image-container w-full h-[370px]">
-      <Image src={image2} alt="image" width={558} height={370}/>
+      <Image src={image1} alt="image" width={558} height={370}/>
     </div>
     <div className="content-container w-full h-[217px]">
-      <div className='heading w-full'>Start-up Support</div>
+      <div className='heading w-full'>Investor Solutions</div>
         <div className='text-container'>
-        Launch and scale start-up ideas faster, with AI pulling real-time  data to identify risks, technical research and insights, along with the building blocks to a marketing, development and business plan to support you.
+        Create status updates faster, with AI pulling from real-time work data to identify risks, open questions,
+         and roadblocks standing in the way of hitting goals.
          </div>
       <div className='button'>
-        <div className="button1 one">
+        <div className="button1 two">
           <div className='inner'>Learn More</div>
           <FaArrowRight className='arrow'/>
           </div>
@@ -25,4 +26,4 @@ const Card = () => {
   )
 }
 
-export default Card
+export default Card2
