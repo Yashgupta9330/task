@@ -14,7 +14,7 @@ function Datasimplified() {
                         <h1 className='text-[40px] font-[600]'>
                             Data - Simplified
                         </h1>
-                        <p className=' w-[100%] h-[47px] '>
+                        <p className=' w-[90%] h-[47px] '>
                             Amet, fames enim vel nec elit aliquet vestibulum vitae tempus. Lacus adipiscing.
                         </p>
                     </div>
@@ -64,7 +64,7 @@ function Datasimplified() {
                             width={278}
                             height={280}
                             alt=''
-                            className=' lg:w-[240px] lg:h-[240px] xl:w-[278px] xl:h-[280px] '
+                            className=' lg:w-[225px] lg:h-[220px] xl:w-[278px] xl:h-[280px] '
                         />
                         <Image
                             src={img2}
