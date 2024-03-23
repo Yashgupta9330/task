@@ -15,7 +15,7 @@ const Card = () => {
         Launch and scale start-up ideas faster, with AI pulling real-time  data to identify risks, technical research and insights, along with the building blocks to a marketing, development and business plan to support you.
          </div>
       <div className=''>
-        <div className="flex justify-center items-center w-32 h-8 gap-1.5 pointer rounded text-[#FFFFFF] bg-[#285B52]">
+        <div className="flex justify-center items-center w-32 h-8 gap-1.5 pointer rounded text-[#FFFFFF] bg-[#285B52] pointer">
           <div className='inner'>Learn More</div>
           <FaArrowRight className='arrow'/>
           </div>
