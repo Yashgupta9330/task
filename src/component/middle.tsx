@@ -4,8 +4,8 @@ import Card from './card'
 import Card2 from './Card2'
 const Middle = () => {
   return (
-    <div className='w-full  my-[48px] flex justify-center items-center'>
-      <div className='flex justify-center items-center gap-[40px]'>
+    <div className='w-full  my-12 flex justify-center items-center'>
+      <div className='w-full flex justify-center items-center gap-12'>
       <Card/>
       <Card2/>
       </div>  
