@@ -8,13 +8,13 @@ import img3 from '@/assets/image 10.png'
 function Datasimplified() {
     return (
         <div className='w-full h-[543px] flex justify-center items-center '>
-            <div className='w-[1164px] h-[543px] rounded-[12px] bg-[#EEEBEA] flex items-center p-[50px] relative '>
-                <div className=' w-[438px] h-[389px]  '>
-                    <div className=' w-[438px] h-[178px] flex flex-col items-start justify-between'>
+            <div className='lg:w-[90%] xl:w-[80%] h-[543px] rounded-[12px] bg-[#EEEBEA] flex items-center p-[50px] relative '>
+                <div className=' lg:w-[70%] xl:w-[50%]   '>
+                    <div className=' w-[100%] h-[178px]  flex flex-col items-start justify-between'>
                         <h1 className='text-[40px] font-[600]'>
                             Data - Simplified
                         </h1>
-                        <p className=' w-[384px] h-[47px] '>
+                        <p className=' w-[100%] h-[47px] '>
                             Amet, fames enim vel nec elit aliquet vestibulum vitae tempus. Lacus adipiscing.
                         </p>
                     </div>
@@ -57,8 +57,33 @@ function Datasimplified() {
                         Get Started
                     </button>
                 </div>
-                <div className='w-[726px] h-full'>
-                    <Image
+                <div className='w-[70%] h-full flex flex-col justify-center items-center'>
+                    <div className='w-[90%] h-[60%] flex justify-center items-center '>
+                        <Image
+                            src={img1}
+                            width={278}
+                            height={280}
+                            alt=''
+                            className=''
+                        />
+                        <Image
+                            src={img2}
+                            width={296}
+                            height={283}
+                            alt=''
+                            className=''
+                        />
+                    </div>
+                    <div className='w-[80%] flex items-center justify-center '>
+                        <Image
+                            src={img3}
+                            width={314.4}
+                            height={84.46}
+                            alt=''
+                            className=''
+                        />
+                    </div>
+                    {/* <Image
                         src={img1}
                         width={278}
                         height={280}
@@ -78,7 +103,7 @@ function Datasimplified() {
                         height={70.39}
                         alt=''
                         className='absolute top-[366px] left-[553px] '
-                    />
+                    /> */}
 
                 </div>
 

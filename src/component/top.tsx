@@ -7,11 +7,11 @@ import tickimg from '@/assets/Check icon.svg'
 
 const Top = () => {
   return (
-    <div className='bg-[#285B52] text-white w-full h-[760px] flex gap-[56px] items-center justify-around '>
-      <div className='w-1/2 h-[530px] top-[200px] left-[111px] absolute flex-col items-start justify-normal px-[120px] '>
-        <div className='flex-col  w-[650px] '>
+    <div className='bg-[#285B52] text-white w-full h-screen flex gap-[56px] items-center justify-around '>
+      <div className='w-1/2 h-[530px] flex-col items-start justify-normal px-[20px] '>
+        <div className='flex-col  w-[100%] '>
           <h1 className=' font-[600] text-[56px] leading-[68.26px] mb-[28px] '>Business with Intelligent Solutions</h1>
-          <p className=' font-[400] text-[18px] leading-[26px] w-[547px] '>Amet, fames enim vel nec elit aliquet vestibulum vitae tempus. Lacus adipiscing vitae, aliquet lorem. Praesent nulla consequat mauris
+          <p className=' font-[400] text-[18px] leading-[26px] w-[100%] '>Amet, fames enim vel nec elit aliquet vestibulum vitae tempus. Lacus adipiscing vitae, aliquet lorem. Praesent nulla consequat mauris
         </p></div>
           <div className=' w-[392px] flex items-center  gap-[10px] z-[9999] mt-[50px] '>
             <button className='bg-white hover:bg-slate-200 w-[180px] mr-[10px] h-[56px] rounded-[12px] px-[24px] py-[14px] text-black font-bold '>
@@ -57,7 +57,7 @@ const Top = () => {
             </div>
           </div>
       </div>
-      <div className=' h-[457.52px] absolute left-[840px] top-[200px] '>
+      <div className=' h-[457.52px] '>
           <div className='flex'>
             <Image
             src={img1}
