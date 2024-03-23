@@ -12,7 +12,8 @@ const Card2 = () => {
     <div className="content-container w-full h-[217px]">
       <div className='heading w-full'>Investor Solutions</div>
         <div className='text-container'>
-        Create status updates faster, with AI pulling from real-time work data to identify risks, open questions,
+        Create status updates faster, with AI pulling from real-time work data
+         to identify risks, open questions,
          and roadblocks standing in the way of hitting goals.
          </div>
       <div className='button'>
