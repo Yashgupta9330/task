@@ -6,8 +6,8 @@ import img1 from '@/assets/Frame.svg'
 function Last() {
     return (
         <div className=' lg:w-[80%] xl:w-[80%] lg:h-[600px] xl:h-[503px] flex justify-around items-center gap-[20px]  '>
-            <div className=' w-[50%] lg:h-[350px] xl:h-[326px] flex flex-col justify-between items-start'>
-                <div className='w-[40%px] lg:h-full xl:h-[80%] flex flex-col justify-between items-start '>
+            <div className=' lg:w-[80%] xl:w-[50%] lg:h-[350px] xl:h-[326px] flex flex-col justify-between items-start'>
+                <div className='w-[40%px] lg:h-full xl:h-[80%] flex flex-col justify-around items-start '>
                     <div className=' lg:w-full xl:w-[90%] flex flex-col justify-between items-start h-[144px] '>
                         <span className='uppercase font-[400] text-[16px]  '>
                             Integration - Coming Soon!
@@ -17,7 +17,7 @@ function Last() {
                         </h1>
                         {/* lg:w-[100%] xl:w-full h-[98px] */}
                     </div>
-                    <p className=' w-[90%] xl:h-[82px] font-[400] text-[16px] leading-[24px] '>
+                    <p className=' lg:w-[90%] xl:w-[80%] xl:h-[82px] font-[400] text-[16px] leading-[24px] '>
                         Integrate Digital Insights directly into your existing platforms for the same user experience and benefits, for a more seamless experience. Coming Soon!
                     </p>
                 </div>
