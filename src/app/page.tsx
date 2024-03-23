@@ -2,6 +2,7 @@
 import Header from "@/component/Header";
 import Top from "@/component/top";
 import Middle from "@/component/middle";
+import Footer from "@/component/footer";
 
 
 export default function Home() {
@@ -11,6 +12,7 @@ export default function Home() {
       <Header/>
       <Top/>
       <Middle/>
+      <Footer/>
      </div>
      
 
