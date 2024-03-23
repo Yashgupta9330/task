@@ -1,6 +1,6 @@
 
 import Header from "@/component/Header";
-import Top from "@/component/Top";
+import Top from "@/component/top";
 import Middle from "@/component/middle";
 import Footer from "@/component/footer";
 import Datasimplified from "@/component/Datasimplified";
