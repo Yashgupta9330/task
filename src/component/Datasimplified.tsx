@@ -7,10 +7,10 @@ import img3 from '@/assets/image 10.png'
 
 function Datasimplified() {
     return (
-        <div className='w-full h-[543px] flex justify-center items-center '>
-            <div className='lg:w-[90%] xl:w-[80%] h-[543px] rounded-[12px] bg-[#EEEBEA] flex items-center p-[50px] relative '>
+        <div className='w-full h-screen sm:h-[543px] flex justify-center items-center '>
+            <div className='lg:w-[90%] xl:w-[80%] h-[730px] sm:h-[543px] rounded-[12px] bg-[#EEEBEA] flex flex-col sm:flex-row items-center p-[30px] sm:p-[50px] relative '>
                 <div className=' lg:w-[70%] xl:w-[50%]   '>
-                    <div className=' w-[100%] h-[178px]  flex flex-col items-start justify-between'>
+                    <div className=' w-[100%] h-[178px]  flex flex-col items-start justify-around sm:justify-between'>
                         <h1 className='text-[40px] font-[600]'>
                             Data - Simplified
                         </h1>
@@ -57,7 +57,7 @@ function Datasimplified() {
                         Get Started
                     </button>
                 </div>
-                <div className='w-[70%] h-full flex flex-col justify-center items-center'>
+                <div className='w-[70%] h-full sm:m-0 mt-10 flex flex-col justify-center items-center'>
                     <div className='w-[90%] h-[60%] flex justify-center items-center '>
                         <Image
                             src={img1}
