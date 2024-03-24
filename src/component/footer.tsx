@@ -7,7 +7,7 @@ const Footer = () => {
     <div className='w-full h-[345px] bg-[#0D0E10] relative'>
       <div className="sm:w-[309px] w-full h-[114px] p-[40px] sm:p-0 sm:absolute sm:top-[67px] sm:left-[114px] ">
         <div className="flex flex-col gap-[24px]">
-        <div className="w-full font-montserrat text-[36px] font-[600] leading-[24px] text-left text-[#FFFFFF]">Diligent Insights</div>
+        <div className="w-full font-montserrat sm:text-[36px] font-[600] leading-[24px] text-left text-[#FFFFFF]">Diligent Insights</div>
         <div className="flex flex-col gap-[16px] w-[288px] h-[94px]">
          <div className="w-full font-montserrat text-[16px] font-[400] leading-[24px] text-left text-[#FFFFFF]">Subscribe for Updates</div>
          <div className="w-[288px] h-[54px] p-[12px] gap-[10px] border-[1px] rounded-[8px] border-gray-700  opacity-1 flex justify-center items-center">
