@@ -5,40 +5,42 @@ import img1 from '@/assets/Frame.svg'
 
 function Last() {
     return (
-        <div className=' lg:w-[80%] xl:w-[80%] lg:h-[600px] xl:h-[503px] flex justify-around items-center gap-[20px]  '>
-            <div className=' lg:w-[80%] xl:w-[50%] lg:h-[350px] xl:h-[326px] flex flex-col justify-between items-start'>
-                <div className='w-[40%px] lg:h-full xl:h-[80%] flex flex-col justify-around items-start '>
-                    <div className=' lg:w-full xl:w-[90%] flex flex-col justify-between items-start h-[144px] '>
-                        <span className='uppercase font-[400] text-[16px]  '>
+        <div className='w-4/5 h-[503px] flex gap-22 '>
+            <div className='w-1/2 h-full flex flex-col justify-between gap-8'> 
+                <div className='w-[87%] h-[64%] lg:w-[90%] lg:h-[75%] flex flex-col  my-auto relative'>
+                    <div className='w-full flex flex-col h-4/5'>
+                        <div className="flex flex-col gap-4 w-full h-3/5">
+                        <div>
+                        <span className='uppercase font-normal text-xl'>
                             Integration - Coming Soon!
                         </span>
-                        <h1 className='  font-[600] lg:text-[36px] xl:text-[40px] leading-[48.76px] text-[#0D0E10]  '>
+                        </div>
+                        <h1 className='  font-semibold  text-3xl leading-10 text-[#0D0E10]  '>
                             Leverage our solutions from your existing tools
                         </h1>
-                        {/* lg:w-[100%] xl:w-full h-[98px] */}
-                    </div>
-                    <p className=' lg:w-[90%] xl:w-[80%] xl:h-[82px] font-[400] text-[16px] leading-[24px] '>
+                        </div>
+                    <p className=' w-full h-2/5 text-base font-normal leading-6 '>
                         Integrate Digital Insights directly into your existing platforms for the same user experience and benefits, for a more seamless experience. Coming Soon!
                     </p>
-                </div>
-                <button className=' w-[180px] lg:h-[38px] xl:h-[32px] flex justify-center items-center hover:border hover:border-[#29292928] rounded-xl py-6 '>
+                    </div>
+                <div className='absolute left-0 bottom-0'>
+                <button className=' w-full h-9 flex  hover:border hover:border-[#29292928] rounded-xl  '>
                     <Image
                         src={img1}
-                        width={32}
-                        height={32}
                         alt=''
                         className=''
                     />
-                    <span className=' font-[600] text-[18px] text-[#0D0E10] ml-[10px] '>Get in touch</span>
+                    <span className=' font-semibold text-[18px] text-[#0D0E10] ml-2.5 '>Get in touch</span>
                 </button>
+                </div>
+                </div>
             </div>
-
+          <div className="w-1/2 h-full">
             <Image
                 src={img2}
-                width={503}
-                height={503}
                 alt=''
             />
+        </div>
         </div>
     )
 }

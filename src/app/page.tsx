@@ -17,10 +17,7 @@ export default function Home() {
         <Datasimplified />
       </div>
 
-
-        {/* <Last /> */}
-
-      <div className="w-full h-fit flex justify-center items-center mt-[20px] ">
+      <div className="w-full flex justify-center items-center mt-8  mb-8">
         <Last />
       </div>
       <div className=" w-full  ">
