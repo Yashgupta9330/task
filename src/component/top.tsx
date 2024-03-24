@@ -7,79 +7,81 @@ import tickimg from '@/assets/Check icon.svg'
 
 const Top = () => {
   return (
-    <div className='bg-[#285B52] text-white w-full h-screen flex gap-[56px] items-center justify-around '>
-      <div className='w-1/2 h-[530px] flex-col items-start justify-normal px-[20px] '>
-        <div className='flex-col  w-[100%] '>
-          <h1 className=' font-[600] text-[56px] leading-[68.26px] mb-[28px] '>Business with Intelligent Solutions</h1>
+    <div className='bg-[#285B52] text-white w-full h-screen flex sm:flex-row flex-col gap-[56px] items-center justify-around '>
+      <div className=' top-0 w-full sm:w-1/2 h-[80%] sm:h-[530px] flex-col items-start justify-normal sm:px-[20px] '>
+        <div className='flex-col items-center justify-center w-[100%] '>
+          <h1 className=' font-[600] text-[24px] sm:text-[56px] leading-[68.26px] sm:mb-[28px] '>Business with Intelligent Solutions</h1>
           <p className=' font-[400] text-[18px] leading-[26px] w-[100%] '>Amet, fames enim vel nec elit aliquet vestibulum vitae tempus. Lacus adipiscing vitae, aliquet lorem. Praesent nulla consequat mauris
-        </p></div>
-          <div className=' w-[392px] flex items-center  gap-[10px] z-[9999] mt-[50px] '>
-            <button className='bg-white hover:bg-slate-200 w-[180px] mr-[10px] h-[56px] rounded-[12px] px-[24px] py-[14px] text-black font-bold '>
-              Start-ups
-            </button>
-            <button className='bg-[#7F39EB] hover:bg-[#9c5aff] w-[180px] h-[56px] rounded-[12px] px-[24px] py-[14px] text-white border border-[#E863FF] font-bold '>
-              Investors
-            </button>
-          </div>
-          <div className='text-white text-[16px] font-[400] mt-[70px] '>
-            <div className='flex gap-2 mb-2'>
-              <Image
-              src={tickimg}
-              width={24}
-              height={24}
-              alt=''
-              />
-              <span>
-              Assess your opportunities
-              </span>
-            </div>
-            <div className='flex gap-2 mb-2'>
-              <Image
-              src={tickimg}
-              width={24}
-              height={24}
-              alt=''
-              />
-              <span>
-              Reduce ambiguity
-              </span>
-            </div>
-            <div className='flex gap-2 mb-2'>
-              <Image
-              src={tickimg}
-              width={24}
-              height={24}
-              alt=''
-              />
-              <span>
-              AI powered solutions
-              </span>
-            </div>
-          </div>
-      </div>
-      <div className=' h-[457.52px] '>
-          <div className='flex'>
+          </p>
+        </div>
+        <div className=' w-full sm:w-[392px] flex items-center  gap-[10px] sm:z-[9999] sm:mt-[50px] '>
+          <button className='bg-white hover:bg-slate-200 w-[180px] mr-[10px] h-[56px] rounded-[12px] px-[24px] py-[14px] text-black font-bold '>
+            Start-ups
+          </button>
+          <button className='bg-[#7F39EB] hover:bg-[#9c5aff] w-[180px] h-[56px] rounded-[12px] px-[24px] py-[14px] text-white border border-[#E863FF] font-bold '>
+            Investors
+          </button>
+        </div>
+        <div className='text-white text-[16px] font-[400] mt-[70px] '>
+          <div className='flex gap-2 mb-2'>
             <Image
+              src={tickimg}
+              width={24}
+              height={24}
+              alt=''
+            />
+            <span>
+              Assess your opportunities
+            </span>
+          </div>
+          <div className='flex gap-2 mb-2'>
+            <Image
+              src={tickimg}
+              width={24}
+              height={24}
+              alt=''
+            />
+            <span>
+              Reduce ambiguity
+            </span>
+          </div>
+          <div className='flex gap-2 mb-2'>
+            <Image
+              src={tickimg}
+              width={24}
+              height={24}
+              alt=''
+            />
+            <span>
+              AI powered solutions
+            </span>
+          </div>
+        </div>
+      </div>
+      <div className=' flex-col justify-center items-center bg-gray-800 '>
+        <div className='flex justify-center items-center'>
+          <Image
             src={img1}
             width={259.91}
             height={217.21}
             alt=''
-            />
-            <Image
+            className=' w-[] h-[] sm:w-[259.91px] sm:h-[217.21px]  '
+          />
+          <Image
             src={img2}
             width={229.58}
             height={217.21}
             alt=''
-            />
-          </div>
-          <div className='flex justify-center items-center w-[511.49px]'>
+          />
+        </div>
+        <div className='flex justify-center items-center sm:w-[511.49px]'>
           <Image
             src={img3}
             width={399.14}
             height={217.21}
             alt=''
-            />
-          </div>
+          />
+        </div>
       </div>
     </div>
   )
