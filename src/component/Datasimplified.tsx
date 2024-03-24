@@ -8,7 +8,7 @@ import img3 from '@/assets/image 10.png'
 function Datasimplified() {
     return (
         <div className='w-full h-screen sm:h-[543px] flex justify-center items-center '>
-            <div className='lg:w-[90%] xl:w-[80%] h-[730px] sm:h-[543px] rounded-[12px] bg-[#EEEBEA] flex flex-col sm:flex-row items-center p-[30px] sm:p-[50px] relative '>
+            <div className='lg:w-[90%] xl:w-[80%] h-[760px] sm:h-[543px] rounded-[12px] bg-[#EEEBEA] flex flex-col sm:flex-row items-center p-[30px] sm:p-[50px] relative '>
                 <div className=' lg:w-[70%] xl:w-[50%]   '>
                     <div className=' w-[100%] h-[178px]  flex flex-col items-start justify-around sm:justify-between'>
                         <h1 className='text-[40px] font-[600]'>
@@ -83,27 +83,7 @@ function Datasimplified() {
                             className=''
                         />
                     </div>
-                    {/* <Image
-                        src={img1}
-                        width={278}
-                        height={280}
-                        alt=''
-                        className='absolute top-[56px] left-[525px] '
-                    />
-                    <Image
-                        src={img2}
-                        width={296}
-                        height={283}
-                        alt=''
-                        className='absolute top-[170px] left-[841px] '
-                    />
-                    <Image
-                        src={img3}
-                        width={262}
-                        height={70.39}
-                        alt=''
-                        className='absolute top-[366px] left-[553px] '
-                    /> */}
+
 
                 </div>
 

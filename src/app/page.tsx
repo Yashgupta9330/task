@@ -16,7 +16,7 @@ export default function Home() {
       <div className="w-full h-full mt-[75px]">
         <Datasimplified />
       </div>
-      <div className="w-full flex justify-center items-center mt-8  mb-8">
+      <div className="w-full flex justify-center items-center mt-10 sm:mt-0  mb-8">
         <Last />
       </div>
       <div className=" w-full  ">
