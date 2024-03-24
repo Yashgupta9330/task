@@ -9,7 +9,7 @@ import Last from "@/component/Last";
 
 export default function Home() {
   return (
-    <div className="w-full">
+    <div className="w-screen h-screen">
       <Header />
       <Top />
       <Middle />
@@ -20,7 +20,7 @@ export default function Home() {
 
         {/* <Last /> */}
 
-      <div className="w-full h-fit flex justify-center items-center mt-[20px] ">
+      <div className="w-full sm:h-fit flex justify-center items-center sm:mt-[20px] ">
         <Last />
       </div>
       <div className=" w-full  ">
