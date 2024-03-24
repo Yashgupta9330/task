@@ -20,7 +20,7 @@ export default function Home() {
 
         {/* <Last /> */}
 
-      <div className="w-full h-fit flex justify-center items-center mt-[20px] ">
+      <div className="w-full sm:h-fit flex justify-center items-center sm:mt-[20px] ">
         <Last />
       </div>
       <div className=" w-full  ">

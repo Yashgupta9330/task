@@ -5,10 +5,10 @@ import logo from '@/assets/logo.png'
 
 function Header() {
     return (
-        <div className='w-full h-[80px] bg-white flex justify-between items-center  '>
+        <div className='w-full h-[80px] bg-white flex justify-center sm:justify-between items-center  '>
 
             <Image
-                className='absolute left-[111px]'
+                className='sm:absolute sm:left-[111px]'
                 src={logo}
                 width={296.67}
                 height={24}
@@ -16,7 +16,7 @@ function Header() {
                 alt="logo"
             />
 
-            <div className='w-[57px] h-[24px] '></div>
+            <div className='sm:w-[57px] sm:h-[24px] '></div>
         </div>
     )
 }

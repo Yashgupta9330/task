@@ -5,14 +5,14 @@ import img1 from '@/assets/Frame.svg'
 
 function Last() {
     return (
-        <div className=' lg:w-[80%] xl:w-[80%] lg:h-[600px] xl:h-[503px] flex justify-around items-center gap-[20px]  '>
+        <div className=' w-full h-full lg:w-[80%] xl:w-[80%] lg:h-[600px] xl:h-[503px] flex flex-col sm:flex-row  justify-around items-center p-[40px] mt-[50px] sm:p-0 gap-[20px]  '>
             <div className=' lg:w-[80%] xl:w-[50%] lg:h-[350px] xl:h-[326px] flex flex-col justify-between items-start'>
-                <div className='lg:w-[90%] xl:w-[100%] lg:h-full xl:h-[80%] flex flex-col justify-around items-start '>
+                <div className='w-[100%] h-full lg:w-[90%] xl:w-[100%] lg:h-full xl:h-[80%] flex flex-col justify-around items-start gap-10 '>
                     <div className=' lg:w-full xl:w-[90%] flex flex-col justify-between items-start h-[144px] '>
                         <span className='uppercase font-[400] text-[16px]  '>
                             Integration - Coming Soon!
                         </span>
-                        <h1 className='  font-[600] lg:text-[36px] xl:text-[40px] leading-[48.76px] text-[#0D0E10]  '>
+                        <h1 className='  font-[600] text-[34px] lg:text-[36px] xl:text-[40px] leading-10 sm:leading-[48.76px] text-[#0D0E10]  '>
                             Leverage our solutions from your existing tools
                         </h1>
                         {/* lg:w-[100%] xl:w-full h-[98px] */}

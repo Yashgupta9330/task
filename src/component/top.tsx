@@ -7,14 +7,14 @@ import tickimg from '@/assets/Check icon.svg'
 
 const Top = () => {
   return (
-    <div className='bg-[#285B52] text-white w-full h-screen flex sm:flex-row flex-col gap-[56px] items-center justify-around '>
-      <div className=' top-0 w-full sm:w-1/2 h-[80%] sm:h-[530px] flex-col items-start justify-normal sm:px-[20px] '>
-        <div className='flex-col items-center justify-center w-[100%] '>
-          <h1 className=' font-[600] text-[24px] sm:text-[56px] leading-[68.26px] sm:mb-[28px] '>Business with Intelligent Solutions</h1>
+    <div className='bg-[#285B52] text-white w-full sm:h-screen flex sm:flex-row flex-col sm:gap-[56px] items-center justify-around '>
+      <div className=' top-0 w-full p-[20px] sm:w-1/2  '>
+        <div className='flex flex-col items-center justify-between w-full gap-[20px] sm:gap-[0px] sm:justify-start  '>
+          <h1 className=' font-[600] text-[36px] sm:text-[56px] leading-10 sm:leading-[68.26px] sm:mb-[28px] '>Business with Intelligent Solutions</h1>
           <p className=' font-[400] text-[18px] leading-[26px] w-[100%] '>Amet, fames enim vel nec elit aliquet vestibulum vitae tempus. Lacus adipiscing vitae, aliquet lorem. Praesent nulla consequat mauris
           </p>
         </div>
-        <div className=' w-full sm:w-[392px] flex items-center  gap-[10px] sm:z-[9999] sm:mt-[50px] '>
+        <div className=' w-full sm:w-[392px] flex items-center  gap-[10px] sm:z-[9999] mt-[20px] sm:mt-[50px] '>
           <button className='bg-white hover:bg-slate-200 w-[180px] mr-[10px] h-[56px] rounded-[12px] px-[24px] py-[14px] text-black font-bold '>
             Start-ups
           </button>
@@ -22,7 +22,7 @@ const Top = () => {
             Investors
           </button>
         </div>
-        <div className='text-white text-[16px] font-[400] mt-[70px] '>
+        <div className='text-white text-[16px] font-[400] mt-[20px] sm:mt-[70px] '>
           <div className='flex gap-2 mb-2'>
             <Image
               src={tickimg}
@@ -58,7 +58,7 @@ const Top = () => {
           </div>
         </div>
       </div>
-      <div className=' flex-col justify-center items-center bg-gray-800 '>
+      <div className=' flex-col justify-center items-center '>
         <div className='flex justify-center items-center'>
           <Image
             src={img1}
