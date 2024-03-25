@@ -10,6 +10,15 @@ const config = {
   ],
   prefix: "",
   theme: {
+    screens: {
+      'sm': '640px',
+      // => @media (min-width: 640px) { ... }
+
+      'lg': '1024px',
+        // => @media (min-width: 1024px) { ... }
+      'xlarge': '2560px',
+      // => @media (min-width: 1450px) { ... }
+    },
     container: {
       center: true,
       padding: "2rem",
