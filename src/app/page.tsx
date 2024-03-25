@@ -9,7 +9,7 @@ import Last from "@/component/Last";
 
 export default function Home() {
   return (
-    <div className="w-screen h-screen">
+    <div className="w-screen h-full">
       <Header />
       <Top />
       <Middle />
