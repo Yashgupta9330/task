@@ -4,6 +4,7 @@ import img2 from '@/assets/Target Vs Reality.svg'
 import img3 from '@/assets/Total Revenue.svg'
 import Image from 'next/image'
 import tickimg from '@/assets/Check icon.svg'
+import { Link } from 'lucide-react'
 
 const Top = () => {
   return (
@@ -15,9 +16,9 @@ const Top = () => {
           </p>
         </div>
         <div className=' w-[90%] sm:w-[392px] xlarge:w-[50%] flex items-center  gap-[10px] sm:z-[9999] mt-[20px] sm:mt-[50px] '>
-          <button className='bg-white hover:bg-slate-200 w-[180px] xlarge:w-[50%] xlarge:h-[100px] mr-[10px] h-[56px] rounded-[12px] px-[24px] py-[14px] text-black font-bold xlarge:text-3xl '>
+          <Link href='/Startup'><button className='bg-white hover:bg-slate-200 w-[180px] xlarge:w-[50%] xlarge:h-[100px] mr-[10px] h-[56px] rounded-[12px] px-[24px] py-[14px] text-black font-bold xlarge:text-3xl '>
             Start-ups
-          </button>
+          </button></Link>
           <button className='bg-[#7F39EB] hover:bg-[#9c5aff] w-[180px] xlarge:w-[50%] xlarge:h-[100px] h-[56px] rounded-[12px] px-[24px] py-[14px] text-white border border-[#E863FF] font-bold xlarge:text-3xl '>
             Investors
           </button>
