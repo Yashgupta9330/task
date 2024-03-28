@@ -16,9 +16,9 @@ const Top = () => {
         </div>
         <div className=' w-[90%] sm:w-[392px] xlarge:w-[50%] flex items-center  gap-[10px] sm:z-[9999] mt-[20px] sm:mt-[50px] '>
           <Link  href='/Startup'><button className='bg-white hover:bg-slate-200 w-[180px] xlarge:w-[50%] xlarge:h-[100px] mr-[10px] h-[56px] rounded-[12px] px-[24px] py-[14px] text-black font-bold xlarge:text-3xl'> Start-ups </button></Link>
-          <button className='bg-[#7F39EB] hover:bg-[#9c5aff] w-[180px] xlarge:w-[50%] xlarge:h-[100px] h-[56px] rounded-[12px] px-[24px] py-[14px] text-white border border-[#E863FF] font-bold xlarge:text-3xl '>
+         <Link href='/Investor'><button className='bg-[#7F39EB] hover:bg-[#9c5aff] w-[180px] xlarge:w-[50%] xlarge:h-[100px] h-[56px] rounded-[12px] px-[24px] py-[14px] text-white border border-[#E863FF] font-bold xlarge:text-3xl '>
             Investors
-          </button>
+          </button></Link> 
         </div>
         <div className='text-white text-[16px] xlarge:text-4xl font-[400] mt-[20px] sm:mt-[70px] '>
           <div className='flex gap-2 mb-2'>
