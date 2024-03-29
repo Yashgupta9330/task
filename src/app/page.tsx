@@ -5,6 +5,7 @@ import Middle from "@/component/middle";
 import Footer from "@/component/footer";
 import Datasimplified from "@/component/Datasimplified";
 import Last from "@/component/Last";
+import LaunchAgents from "@/component/launchagents";
 
 
 export default function Home() {
