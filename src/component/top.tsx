@@ -11,7 +11,7 @@ const Top = () => {
       <div className=' top-0 w-full p-[20px] sm:w-1/2  '>
         <div className='flex flex-col items-center justify-between w-full gap-[20px] sm:gap-[0px] sm:justify-start  '>
           <h1 className=' font-[600] text-[36px] sm:text-[56px] xlarge:text-[86px] leading-10 xlarge:leading-[100px] sm:leading-[68.26px] sm:mb-[28px] '>Business with Intelligent Solutions</h1>
-          <p className=' font-[400] text-[18px] xlarge:text-[44px] xlarge:leading-[60px] leading-[26px] w-[100%] '>Amet, fames enim vel nec elit aliquet vestibulum vitae tempus. Lacus adipiscing vitae, aliquet lorem. Praesent nulla consequat mauris
+          <p className=' font-[400] text-[18px] xlarge:text-[44px] xlarge:leading-[60px] leading-[26px] w-[100%] '>Amet, fames enim vel nec elit aliquet vestibulum vitae tempus. Lacus adipiscing vitae, aliquet lorem. Praesent nulla consequat mauris 
           </p>
         </div>
         <div className=' w-[90%] sm:w-[392px] xlarge:w-[50%] flex items-center  gap-[10px] sm:z-[9999] mt-[20px] sm:mt-[50px] '>
