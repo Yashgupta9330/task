@@ -50,12 +50,6 @@ const page = () => {
       <HiDownload className='cursor-pointer' />
     </div>
     <Footer/>
-    <div className="flex justify-center items-center w-full h-[620px] mb-4">
-      <div className='flex justify-center items-center w-[95%] h-full border rounded bg-[#EEEBEA] text-center'>
-        <div className="text-center font-semibold text-[40px] leading-[48px] text-[#0D0E10]"> INSERT DEMO VIDEO</div>
-      </div>
-     </div>
-     <Footer/>
     </div>
   )
 }
