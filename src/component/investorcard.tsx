@@ -18,13 +18,14 @@ const Investorcard: React.FC<InvestorCardProps> = ({ head, def, fl }) => {
         setLoading(true);
         const input = document.createElement('input');
         input.type = 'file';
-        input.addEventListener('change', handleFile);
+        input.addEventListener('change', handleFileListener);
         input.click();
     };
-
-    const handleFile = (e:ChangeEvent<HTMLInputElement>) => {
-        const file =  e.target.files?.[0];
-        if (file) {
+    
+    const handleFileListener = (e: Event) => {
+        const target = e.target as HTMLInputElement;
+        if (target.files && target.files[0]) {
+            const file = target.files[0];
             setFileName(file.name);
             setLoading(false);
         }
