@@ -34,11 +34,11 @@ function LaunchAgents() {
     ]
 
     return (
-        <div className=' w-[90vw] h-[60vh] flex flex-col gap-[30px] p-[20px]  '>
-            <h1 className='font-[600] text-4xl sm:max-w-[50%] '>
+        <div className=' w-full sm:w-[90vw] min-h-[60vh] flex flex-col xlarge:justify-around gap-[30px] p-[20px]  '>
+            <h1 className='font-[600] text-4xl xlarge:text-6xl sm:max-w-[60%] '>
                 Choose your launch Agents
             </h1>
-            <p className='font-[400] text-base sm:max-w-[50%]'>
+            <p className='font-[400] text-base xlarge:text-3xl sm:max-w-[50%]'>
                 Choose from a range of support skills to suit your needs. Iterate over time to keep your dataset up to date and relevant
             </p>
 
