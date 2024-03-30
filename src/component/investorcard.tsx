@@ -22,7 +22,7 @@ const Investorcard: React.FC<InvestorCardProps> = ({ head, def, fl }) => {
         input.click();
     };
 
-    const handleFile = (e) => {
+    const handleFile = (e:ChangeEvent<HTMLInputElement>) => {
         const file =  e.target.files?.[0];
         if (file) {
             setFileName(file.name);
