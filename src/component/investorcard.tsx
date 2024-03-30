@@ -27,7 +27,13 @@ const Investorcard = ({head,def,fl}) => {
     return (
         <div className='h-[95px] w-[300px] flex flex-col gap-2 border items-center justify-center rounded border-[#BDBDBD] shadow-md py-4'>
             <div className="text-center">{head}</div>
-            <input type='text' className='text-center w-[99%] border rounded-md border-[#BDBDBD80] shadow-md' value={fileName} onChange={(e) => setFileName(e.target.value)} />
+            <input
+            type='text'
+            className='text-center w-[99%] border rounded-md border-[#BDBDBD80] shadow-md'
+            value={fileName}
+            disabled={fl === '0'} // Disable input if fl is 0
+            onChange={(e) => setFileName(e.target.value)}
+            />
             <div className={`flex items-center ${fl === '0' ? 'flex-start' : 'flex-end'} w-full justify-between`}>
                 {fl === '0' &&
                     <>
