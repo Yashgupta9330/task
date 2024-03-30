@@ -1,12 +1,18 @@
-import React, { useState } from 'react';
+import React, { useState, ChangeEvent } from 'react';
 import { RiDeleteBin5Line } from "react-icons/ri";
 import { HiUpload } from "react-icons/hi";
 import { AiOutlineLoading3Quarters } from "react-icons/ai";
 import { GrStatusGood } from "react-icons/gr";
 
-const Investorcard = ({head,def,fl}) => {
-    const [fileName, setFileName] = useState(def);
-    const [loading, setLoading] = useState(false);
+interface InvestorCardProps {
+    head: string;
+    def: string;
+    fl: string;
+}
+
+const Investorcard: React.FC<InvestorCardProps> = ({ head, def, fl }) => {
+    const [fileName, setFileName] = useState<string>(def);
+    const [loading, setLoading] = useState<boolean>(false);
 
     const handleFileUpload = () => {
         setLoading(true);
@@ -17,7 +23,7 @@ const Investorcard = ({head,def,fl}) => {
     };
 
     const handleFile = (e) => {
-        const file =  e.target.files[0];
+        const file =  e.target.files?.[0];
         if (file) {
             setFileName(file.name);
             setLoading(false);
@@ -28,11 +34,11 @@ const Investorcard = ({head,def,fl}) => {
         <div className='h-[95px] w-[300px] flex flex-col gap-2 border items-center justify-center rounded border-[#BDBDBD] shadow-md py-4'>
             <div className="text-center">{head}</div>
             <input
-            type='text'
-            className='text-center w-[99%] border rounded-md border-[#BDBDBD80] shadow-md'
-            value={fileName}
-            disabled={fl === '0'} // Disable input if fl is 0
-            onChange={(e) => setFileName(e.target.value)}
+                type='text'
+                className='text-center w-[99%] border rounded-md border-[#BDBDBD80] shadow-md'
+                value={fileName}
+                disabled={fl === '0'} // Disable input if fl is 0
+                onChange={(e) => setFileName(e.target.value)}
             />
             <div className={`flex items-center ${fl === '0' ? 'flex-start' : 'flex-end'} w-full justify-between`}>
                 {fl === '0' &&
