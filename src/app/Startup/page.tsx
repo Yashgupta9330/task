@@ -44,11 +44,13 @@ const page = () => {
       </div>
 
 
+
       <div className=' w-[90vw] h-screen border border-[#285B52] rounded-xl justify-self-center mx-auto flex justify-between p-[10px] my-[20px] '>
         <span className=' text-base  xlarge:text-3xl font-bold text-left ' >Report</span>
         <HiDownload className='cursor-pointer' />
       </div>
       <Footer />
+ 
     </div>
   )
 }
