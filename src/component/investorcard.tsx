@@ -21,7 +21,7 @@ const Investorcard: React.FC<InvestorCardProps> = ({ head, def, fl }) => {
         input.addEventListener('change', handleFileListener);
         input.click();
     };
-    
+
     const handleFileListener = (e: Event) => {
         const target = e.target as HTMLInputElement;
         if (target.files && target.files[0]) {
@@ -32,7 +32,7 @@ const Investorcard: React.FC<InvestorCardProps> = ({ head, def, fl }) => {
     };
 
     return (
-        <div className='h-[95px] w-[300px] flex flex-col gap-2 border items-center justify-center rounded border-[#BDBDBD] shadow-md py-4'>
+        <div className='min-h-[95px] max-w-[300px] flex flex-col gap-2 border items-center justify-center rounded-xl border-[#BDBDBD] xlarge:text-xl shadow-md px-2 py-4'>
             <div className="text-center">{head}</div>
             <input
                 type='text'
@@ -41,21 +41,22 @@ const Investorcard: React.FC<InvestorCardProps> = ({ head, def, fl }) => {
                 disabled={fl === '0'} // Disable input if fl is 0
                 onChange={(e) => setFileName(e.target.value)}
             />
-            <div className={`flex items-center ${fl === '0' ? 'flex-start' : 'flex-end'} w-full justify-between`}>
-                {fl === '0' &&
-                    <>
-                        <RiDeleteBin5Line className='cursor-pointer text-[#DF4C3F]' onClick={() => setFileName(def)} />
+            <div className={`flex items-center ${fl === '0' ? 'flex-start' : 'flex-end'} xlarge:text-lg text-base w-full justify-between`}>
+                {fl === '0' ?
+
+                    (<div className='flex justify-between items-center w-[40%]'>    
+                    <RiDeleteBin5Line className='cursor-pointer text-[#DF4C3F]' onClick={() => setFileName(def)} />
                         <div className="flex justify-center items-center">
                             <HiUpload className='text-[#7F39EB] cursor-pointer w-4 h-4' onClick={handleFileUpload} />
-                            <div className="cursor-pointer w-[30px] h-[18px]" onClick={handleFileUpload}>Upload</div>
-                        </div>
-                    </>
+                            <div className="cursor-pointer max-w-[30px] min-h-[18px]" onClick={handleFileUpload}>Upload</div>
+                        </div></div>
+                    ) : <div></div>
                 }
                 <div className='flex gap-2 mr-2 justify-center items-center'>
                     {loading && <AiOutlineLoading3Quarters className='text-[#7F39EB]' />}
                     <div className='flex justify-center items-center '>
                         <GrStatusGood className='text-[#285B52]' />
-                        <div>success</div>
+                        <span>Ready</span>
                     </div>
                 </div>
             </div>
