@@ -28,12 +28,12 @@ function Performance() {
         <div className='w-[90vw] flex flex-col items-center justify-between gap-5 '>
             <div className=' w-full flex flex-col md:flex-row items-center justify-between gap-2 '>
 
-                <div className='gap-[10px] h-full flex flex-col md:w-[70%] '>
+                <div className='gap-[10px] h-full md:h-[585px] flex flex-col justify-between items-start md:w-[70%] '>
                     <PerformanceCard heading="Executive Analysis Summary (DI Assessment of company)" content="Key Talking Points & Insights for further investigation" />
                     <PerformanceCard heading="Product  / Service Overview and Insights"  />
                     
                 </div>
-                <div className='min-h-[460px] w-[90%] md:w-[40%] rounded-xl shadow-lg bg-[#F6F6F6] px-1 flex flex-col items-start xlarge:text-2xl lg:text-xl text-[#0D0E10] font-medium gap-4'>
+                <div className='min-h-[460px] md:h-[585px] w-[90%] md:w-[40%] rounded-xl shadow-lg bg-[#F6F6F6] p-4 flex flex-col items-start xlarge:text-2xl lg:text-xl text-[#0D0E10] font-medium gap-4'>
                     <h1 className=' xlarge:text-3xl text-lg text-center w-full' >Financial Ratios (beta)</h1>
                     <div className='w-full flex flex-col gap-[10px]'>
                         <div className='w-full flex justify-between items-center py-5'>
