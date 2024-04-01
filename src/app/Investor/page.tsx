@@ -37,14 +37,14 @@ const page = () => {
 
 
               <div className='flex flex-col items-center flex-wrap '>
-                <div className=' flex justify-between items-center px-5 w-full '>
+                <div className=' flex justify-between items-center gap-2 w-full '>
                   <Button type='submit' className='w-[113px] h-[48px] bg-[#FFFFFF] font-semibold text-[16px]  px-[8px] py-[24px] leading-8 border-2 border-[#7F39EB] rounded-[16px] text-[#7F39EB] hover:text-white hover:bg-[#7F39EB] '>Analyse</Button>
                   <Button type='submit' className='w-[124px] h-[48px] bg-[#7F39EB] font-semibold text-[16px]  px-[8px] py-[24px] leading-8 text-[#FFFFFF] rounded-[16px] hover:bg-[#532f89] hover:border-2 hover:border-[#7F39EB] '>Generate</Button>
                 </div>
 
                 <span className=' flex justify-center items-center mt-5 '>
                   <GrStatusGood width={18} height={18} className='text-[#285B52]' />
-                  <span className=' text-[#666666] text-base border border-[#BDBDBD80] px-2 rounded-md '>
+                  <span className=' text-[#666666] text-base border border-[#BDBDBD80] px-2 lg:text-small rounded-md '>
                     Financial Analysis Discount Rate
                   </span>
                 </span>

@@ -16,7 +16,7 @@ const page = () => {
     <div className='w-full flex flex-col mx-auto '>
         <Navbar />
       <div className="flex w-full h-[60vh] sm:min-h-[496px] xlarge:min-h-[590px] relative">
-        <div className='absolute w-[90%] sm:w-[50%] min-h-60 sm:top-52 lsm:eft-28 flex flex-col gap-14  lg:top-32 lg:left-16'>
+        <div className='absolute w-[90%] sm:w-[50%] min-h-60 sm:top-52 lsm:eft-28 flex flex-col gap-14  md:top-16 md:left-8 lg:top-32 lg:left-16'>
           <div className='w-full min-h-36 text-[42px] sm:max-xl:text-[42px] xl:text-[56px] xlarge:text-[86px] font-semibold leading-16 text-[#0D0E10] text-left'>Smart tools to Launch and Scale your ideas</div>
           <div className='flex justify-center items-center w-48 h-14 xlarge:w-[20rem] xlarge:h-[5.5rem] cursor-pointer'>
             <Button className='w-full h-full bg-[#285B52] font-semibold text-xl xlarge:text-3xl text-[#FFFFFF]'>Get Started</Button>
