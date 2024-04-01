@@ -26,33 +26,33 @@ function Performance() {
     ]
     return (
         <div className='w-[90vw] flex flex-col items-center justify-between gap-5 '>
-            <div className=' w-full flex flex-col md:flex-row items-center justify-between gap-2 '>
+            <div className=' w-full flex flex-col md:flex-row items-center justify-between gap-5 '>
 
-                <div className='gap-[10px] h-full md:h-[585px] flex flex-col justify-between items-start md:w-[70%] '>
+                <div className=' h-full md:h-[532px] flex flex-col justify-between items-start md:w-[70%] '>
                     <PerformanceCard heading="Executive Analysis Summary (DI Assessment of company)" content="Key Talking Points & Insights for further investigation" />
-                    <PerformanceCard heading="Product  / Service Overview and Insights"  />
-                    
+                    <PerformanceCard heading="Product  / Service Overview and Insights" />
                 </div>
-                <div className='min-h-[460px] md:h-[585px] w-[90%] md:w-[40%] rounded-xl shadow-lg bg-[#F6F6F6] p-4 flex flex-col items-start xlarge:text-2xl lg:text-xl text-[#0D0E10] font-medium gap-4'>
+
+                <div className='min-h-[460px] md:h-[532px] w-[90%] md:w-[30%] rounded-xl shadow-lg bg-[#F6F6F6] p-4 flex flex-col justify-between items-start xlarge:text-2xl text-[14px] text-[#0D0E10] font-medium gap-4'>
                     <h1 className=' xlarge:text-3xl text-lg text-center w-full' >Financial Ratios (beta)</h1>
                     <div className='w-full flex flex-col gap-[10px]'>
-                        <div className='w-full flex justify-between items-center py-5'>
+                        <div className='w-full flex justify-between items-center py-2'>
                             <div className='text-[#0D0E10] opacity-50 '>Gross Margin</div>
                             <div className=' text-[#0D0E10] font-semibold '>4,324.32</div>
                         </div>
-                        <div className='w-full flex justify-between items-center py-5'>
+                        <div className='w-full flex justify-between items-center py-2'>
                             <div className='text-[#0D0E10] opacity-50 '>R&D Spend</div>
                             <div className=' text-[#0D0E10] font-semibold '>4,834.32 - 4,932.53</div>
                         </div>
-                        <div className='w-full flex justify-between items-center py-5'>
+                        <div className='w-full flex justify-between items-center py-2'>
                             <div className='text-[#0D0E10] opacity-50 '>Sales</div>
                             <div className=' text-[#0D0E10] font-semibold '>2,623.28 - 3,823.74</div>
                         </div>
-                        <span className='w-full flex justify-between items-center py-5 '>
+                        <span className='w-full flex justify-between items-center py-2 '>
                             <span className='text-[#0D0E10] opacity-50 '>Net Margin</span>
                             <span className=' text-[#0D0E10] font-semibold '>32%</span>
                         </span>
-                        <span className='w-full flex justify-between items-center py-5 '>
+                        <span className='w-full flex justify-between items-center py-2 '>
                             <span className='text-[#0D0E10] opacity-50 '>Capex</span>
                             <span className=' text-[#0D0E10] font-semibold '>82.73</span>
                         </span>

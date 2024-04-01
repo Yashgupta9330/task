@@ -56,7 +56,7 @@ const Investorcard: React.FC<InvestorCardProps> = ({ head, def, fl }) => {
                     {loading && <AiOutlineLoading3Quarters className='text-[#7F39EB]' />}
                     <div className='flex justify-center items-center '>
                         <GrStatusGood className='text-[#285B52]' />
-                        <span>Ready</span>
+                        <span className='block md:max-lg:hidden'>Ready</span>
                     </div>
                 </div>
             </div>
