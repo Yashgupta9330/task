@@ -29,7 +29,7 @@ const page = () => {
 
 
 
-            <div className='border border-[#BDBDBD] shadow-md  w-full min-w-fit rounded-lg min-h-[124px] mb-2 items-center gap-4 px-5 py-6 grid grid-rows-4 md:grid-rows-1 md:grid-cols-4 '>
+            <div className='border border-[#BDBDBD] shadow-md  w-full min-w-fit rounded-lg min-h-[124px] my-2 items-center gap-4 px-5 py-6 grid grid-rows-4 md:grid-rows-1 md:grid-cols-4 '>
 
               <Investorcard head="Company URL" def="www.immersive-engineering.c.." fl='1' />
               <Investorcard head="Pitch Deck" def="IE bVildR Pitch Deck.pdf" fl='0' />
