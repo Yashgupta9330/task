@@ -33,23 +33,23 @@ const Investorcard: React.FC<InvestorCardProps> = ({ head, def, fl }) => {
     };
 
     return (
-        <div className='min-h-[95px] w-full flex flex-col gap-2 border items-center justify-center rounded-xl border-[#BDBDBD] xlarge:text-xl shadow-md px-2 py-4'>
-              <div className="text-center">{head}</div>
+        <div className='min-h-[95px] w-full flex flex-col gap-2 border items-center justify-center rounded-xl border-[#BDBDBD] xlarge:text-3xl shadow-md sm:text-base px-2 py-4 xlarge:h-full '>
+              <span className="text-center text-base xlarge:text-3xl">{head}</span>
             <input
                 type='text'
-                className='text-center w-[99%] border rounded-md border-[#BDBDBD80] shadow-md'
+                className='text-center w-[99%] text-sm border rounded-md border-[#BDBDBD80] shadow-md xlarge:text-2xl'
                 value={fileName}
                 disabled={fl === '0'} // Disable input if fl is 0
                 onChange={(e) => setFileName(e.target.value)}
             />
-            <div className={`flex items-center ${fl === '0' ? 'flex-start' : 'flex-end'} xlarge:text-lg text-base w-full justify-between`}>
+            <div className={`flex items-center ${fl === '0' ? 'flex-start' : 'flex-end'} xlarge:text-3xl text-sm w-full justify-between`}>
                 {fl === '0' ?
 
-                    (<div className='flex justify-between items-center md:max-2xl:w-[45%] sm:w-[50%]'>    
+                    (<div className='flex justify-around items-center md:max-2xl:w-[45%] w-[50%]'>    
                     <RiDeleteBin5Line className='cursor-pointer text-[#DF4C3F]' onClick={() => setFileName(def)} />
                         <div className="flex justify-center items-center">
                             <HiUpload className='text-[#7F39EB] cursor-pointer w-4 h-4' onClick={handleFileUpload} />
-                            <div className=" cursor-pointer max-w-[30px] min-h-[18px] md:max-2xl:block sm:hidden" onClick={handleFileUpload}>Upload</div>
+                            <span className=" cursor-pointer max-w-[30px] min-h-[18px] md:max-2xl:block " onClick={handleFileUpload}>Upload</span>
                         </div></div>
                     ) : <div></div>
                 }
@@ -57,7 +57,7 @@ const Investorcard: React.FC<InvestorCardProps> = ({ head, def, fl }) => {
                     {loading && <AiOutlineLoading3Quarters className='text-[#7F39EB]' />}
                     <div className='flex justify-center items-center '>
                         <GrStatusGood className='text-[#285B52]' />
-                        <span className='md:max-2xl:block sm:hidden'>Ready</span>
+                        <span className='md:max-2xl:block'>Ready</span>
                     </div>
                 </div>
             </div>
