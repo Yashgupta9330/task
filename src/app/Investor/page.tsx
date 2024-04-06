@@ -16,7 +16,7 @@ const page = () => {
   }
   return (
     <div className='w-full flex flex-col'>
-      <Navbar />
+      <Navbar title='Diligent Insights  -  Investor Hub' color='#512A8D' />
       <div className="w-full min-h-[450px] flex flex-col  gap-8 rounded-tl-none rounded-tr-none rounded-bl-lg rounded-br-lg bg-[#FFFFFF] border border-solid border-gray-100 shadow-md shadow-x-0 shadow-y-4 shadow-blur-4 shadow-spread-0 pt-4 ">
 
 
