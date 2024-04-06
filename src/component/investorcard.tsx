@@ -49,7 +49,7 @@ const Investorcard: React.FC<InvestorCardProps> = ({ head, def, fl }) => {
                     <RiDeleteBin5Line className='cursor-pointer text-[#DF4C3F]' onClick={() => setFileName(def)} />
                         <div className="flex justify-center items-center">
                             <HiUpload className='text-[#7F39EB] cursor-pointer w-4 h-4' onClick={handleFileUpload} />
-                            <span className=" cursor-pointer max-w-[30px] min-h-[18px] hidden md:max-2xl:block" onClick={handleFileUpload}>Upload</span>
+                            <span className=" cursor-pointer max-w-[30px] min-h-[18px] hidden md:block" onClick={handleFileUpload}>Upload</span>
                         </div></div>
                     ) : <div></div>
                 }
