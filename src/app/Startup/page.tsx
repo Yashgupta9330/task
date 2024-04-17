@@ -1,17 +1,14 @@
 "use client";
 import Navbar from '@/component/Navbar'
 import LaunchAgents from '@/component/launchagents'
-import { Input } from "@/components/ui/input"
-import { Label } from "@/components/ui/label"
+
 import { HiDownload } from "react-icons/hi";
 import Footer from '@/component/footer'
 import { Button } from '@/components/ui/button'
 import React from 'react'
 
 const page = () => {
-  const handleFormSubmit = (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
-  }
+
   return (
     <div className='w-full flex flex-col mx-auto '>
         <Navbar title='Diligent Insights  -  Startup Hub' color='#285B52' />
@@ -33,7 +30,7 @@ const page = () => {
       <div className=' w-full flex items-center justify-center mb-10 mt-5 '>
         <LaunchAgents />
       </div>
-      <div className='w-full flex justify-center items-center'>
+      {/* <div className='w-full flex justify-center items-center'>
         <form onSubmit={(e) => handleFormSubmit(e)} className="flex flex-col w-[90vw] justify-start items-start gap-[10px]">
           <Label htmlFor="name" className=' text-base xlarge:text-3xl font-bold text-left '>Startup Name</Label>
           <Input type="text" id="name" className=' border border-[#285B52] shadow-md h-[60px] sm:max-w-[50%] focus:outline-none focus:ring-0 ' />
@@ -41,7 +38,7 @@ const page = () => {
           <Input type="text" id="name" className=' border border-[#285B52] shadow-md h-[60px] min-w-[50%] ' />
           <Button type='submit' className='w-[220px] h-[60px] xlarge:w-[310px] xlarge:h-[85px] bg-[#285B52] font-semibold text-xl xlarge:text-3xl  mt-[5px] text-[#FFFFFF]'>Analyse</Button>
         </form>
-      </div>
+      </div> */}
 
 
 
